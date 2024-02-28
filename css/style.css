@@ -1,0 +1,96 @@
+/* *****RESET***** */
+:root {
+    --color-extremes: #2c3e50;
+    --color-jumbo-about: #1abc9c;
+    --color-footer: #3a546d;
+}
+
+.ms_debug {
+    border: 1px solid red;
+}
+
+/* *****GENERAL***** */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+a {
+    color: var(--color-);
+    text-decoration: none;
+}
+
+/* *******BODY*******  */
+/* header  */
+
+/* main  */
+
+/* jumbo  */
+
+#jumbo img {
+    width: 250px;
+    padding-bottom: 30px;
+}
+
+/* footer  */
+
+
+/* *******UTILITIES*******  */
+/* color  */
+.ms_bg-extremes {
+    background-color: var(--color-extremes);
+}
+
+.ms_bg-jumbo-about {
+    background-color: var(--color-jumbo-about);
+}
+
+.ms_bg-footer {
+    background-color: var(--color-footer);
+}
+.ms_jumbo-about {
+    color: var(--color-jumbo-about);
+}
+/* utility  */
+.ms_btn {
+    display: inline-block;
+    padding: 6px 12px;
+}
+
+.star-white::before,
+.star-white::after {
+    content: "-----------------";
+    color: transparent;
+    text-decoration: 3px line-through white;
+    padding: 20px;
+}
+.star-black::before,
+.star-black::after {
+    content: "-----------------";
+    color: transparent;
+    text-decoration: 3px line-through black;
+    padding: 20px;
+}
+.card:hover::after {}
+
+#nav-burger a.nav-link {
+    color: white;
+}
+
+#nav-burger a.nav-link:hover {
+    color: var(--color-jumbo-about);
+}
+
+/* flex utility  */
+.ms_d-flex {
+    display: flex;
+}
+
+/* media query  */
+/* @media screen and (max-width: 1200px) {}   */
+/* @media screen and (max-width: 992px) {}  */
+/* @media screen and (max-width: 768px) {}  */
+/* @media screen and (max-width: 576px) {}  */
