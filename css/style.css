@@ -60,19 +60,29 @@ a {
     padding: 6px 12px;
 }
 
+
+.star-white, .star-black {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
 .star-white::before,
 .star-white::after {
-    content: "-----------------";
-    color: transparent;
-    text-decoration: 3px line-through white;
-    padding: 20px;
+    content: "";
+    width: 100px;
+    height: 3px;
+    background-color: white;
+    border-radius: 20px;
 }
 .star-black::before,
 .star-black::after {
-    content: "-----------------";
-    color: transparent;
-    text-decoration: 3px line-through black;
-    padding: 20px;
+    content: "";
+    width: 100px;
+    height: 3px;
+    background-color: black;
+    border-radius: 20px;
 }
 .card:hover::after {
     content: "\2b";
